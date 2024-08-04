@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaWhatsapp, FaEnvelope, FaEllipsisH, FaApple, FaGooglePlay, FaStar } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaWhatsapp, FaEnvelope, FaEllipsisH, FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -34,46 +34,46 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Help</h3>
             <ul className="space-y-2">
-              <li>Help Centre</li>
-              <li>Shipping & Delivery</li>
-              <li>Returns & Refunds</li>
-              <li>Customer Reviews</li>
-              <li>Refer a Friend</li>
-              <li>Subscribe & Save</li>
-              <li>Vouchers</li>
-              <li>FAQs</li>
-              <li>Affiliate Programme</li>
-              <li>Contact Us</li>
+              <li><a href="https://www.google.com/">Help Centre</a></li>
+              <li><a href="https://www.google.com/">Shipping & Delivery</a></li>
+              <li><a href="https://www.google.com/">Returns & Refunds</a></li>
+              <li><a href="https://www.google.com/">Customer Reviews</a></li>
+              <li><a href="https://www.google.com/">Refer a Friend</a></li>
+              <li><a href="/">Subscribe & Save</a></li>
+              <li><a href="https://www.google.com/">Vouchers</a></li>
+              <li><a href="https://www.google.com/">FAQs</a></li>
+              <li><a href="https://www.google.com/">Affiliate Programme</a></li>
+              <li><a href="https://www.google.com/">Contact Us</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <ul className="space-y-2">
-              <li>About Us</li>
-              <li>Viperfume Club</li>
-              <li>Blog</li>
-              <li>Clearpay</li>
-              <li>Klarna</li>
-              <li>Amazon Pay</li>
-              <li>Fragrance Strengths & Types</li>
-              <li>A-Z of Celebrity Scents</li>
-              <li>Fragrance Map</li>
+              <li><a href="https://www.google.com/">About Us</a></li>
+              <li><a href="https://www.google.com/">Viperfume Club</a></li>
+              <li><a href="https://www.google.com/">Blog</a></li>
+              <li><a href="https://www.google.com/">Clearpay</a></li>
+              <li><a href="https://www.google.com/">Klarna</a></li>
+              <li><a href="https://www.google.com/">Amazon Pay</a></li>
+              <li><a href="https://www.google.com/">Fragrance Strengths & Types</a></li>
+              <li><a href="https://www.google.com/">A-Z of Celebrity Scents</a></li>
+              <li><a href="https://www.google.com/">Fragrance Map</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Reviews</h3>
             <div className="mt-4 flex justify-center md:justify-start">
-              <img src="/assets/images/images.jpeg" alt="Custom Image 1" className="w-20 h-20 md:w-32 md:h-32 object-cover rounded-lg" />
+              <img src="/assets/images/images.jpeg" alt="Customer reviews" className="w-20 h-20 md:w-32 md:h-32 object-cover rounded-lg" />
             </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Get the App</h3>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a href="#" className="block">
+              <a href="https://www.google.com/" className="block">
                 <FaApple className="text-4xl" />
                 <span className="block text-sm">Download on the App Store</span>
               </a>
-              <a href="#" className="block">
+              <a href="https://www.google.com/" className="block">
                 <FaGooglePlay className="text-4xl" />
                 <span className="block text-sm">Get it on Google Play</span>
               </a>
